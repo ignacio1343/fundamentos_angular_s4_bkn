@@ -7,6 +7,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { ContactoComponent } from './pages/contacto/contacto.component';
 import { AyudaComponent } from './pages/ayuda/ayuda.component';
 import { NopageComponent } from './pages/nopage/nopage.component';
+import { MenuComponent } from './components/menu/menu.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { NopageComponent } from './pages/nopage/nopage.component';
     HomeComponent,
     ContactoComponent,
     AyudaComponent,
-    NopageComponent
+    NopageComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,12 @@
+<nav class="navbar navbar-expand-sm bg-light">
+
+    <div class="container-fluid">
+      <!-- Links -->
+      <ul class="navbar-nav">
+        <li *ngFor="let ruta of rutas" class="nav-item">
+            <a href="" [routerLink]="ruta.destino" class="nav-link">{{ruta.nombre}}</a>
+        </li>
+    </ul>
+    </div>
+  
+  </nav>
